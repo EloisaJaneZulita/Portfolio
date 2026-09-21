@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eloisa Jane Zulita | English Teacher & Voice Artist</title>
+  <meta name="description" content="Eloisa Jane Zulita is an education student, English teacher for Chinese and Filipino learners, and narrator and voice-over artist." />
+  <meta property="og:title" content="Eloisa Jane Zulita | English Teacher & Voice Artist" />
+  <meta property="og:description" content="Teaching English with warmth. Giving stories a voice." />
+  <meta name="theme-color" content="#2A1245" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Eloisa Jane Zulita, home">Eloisa Jane Zulita</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#voice">Voice</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to night mode" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a.6.6 0 0 0-.8-.7A9.5 9.5 0 1 0 21.2 15a.6.6 0 0 0-.7-.8Z" fill="currentColor"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.5 1.5M17.2 17.2l1.5 1.5M5.3 18.7l1.5-1.5M17.2 6.8l1.5-1.5"/></g></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <p class="hero-kicker">Education student, English teacher, voice artist</p>
+        <h1>
+          Teaching English with warmth.
+          <em>Giving stories a&nbsp;voice.</em>
+        </h1>
+        <p class="hero-lede">
+          I teach English to learners in China and the Philippines, and I lend my voice to narrations and voice-overs.
+        </p>
+
+        <!-- The one memorable element: the voice player -->
+        <div class="voice-player" id="voicePlayer">
+          <button class="play-btn" id="playBtn" type="button" aria-label="Play voice sample" aria-pressed="false">
+            <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z" fill="currentColor"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4.2" height="14" rx="1.2" fill="currentColor"/><rect x="13.8" y="5" width="4.2" height="14" rx="1.2" fill="currentColor"/></svg>
+          </button>
+          <div class="player-body">
+            <p class="player-title" id="playerTitle">Hear my voice</p>
+            <div class="waveform" id="waveform" aria-hidden="true"></div>
+            <div class="player-meta">
+              <span id="timeNow">0:00</span>
+              <span id="timeTotal">0:00</span>
+            </div>
+          </div>
+          <audio id="audio" preload="metadata" src="voice-sample.mp3"></audio>
+        </div>
+        <p class="player-note" id="playerNote" hidden>Voice sample coming soon.</p>
+      </div>
+
+      <figure class="hero-photo">
+        <div class="photo-frame">
+          <img src="eloisa-profile.jpg" alt="Portrait of Eloisa Jane Zulita" id="heroImg" />
+          <div class="photo-fallback" id="heroFallback" aria-hidden="true">
+            <span>EJ</span>
+          </div>
+        </div>
+      </figure>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="about-inner">
+        <h2>A teacher's patience, a storyteller's voice.</h2>
+        <div class="about-copy">
+          <p>
+            I'm Eloisa, an education student who has spent her time in the classroom, both on-screen and in person. I've taught English online to Chinese students and face to face with Filipino learners, and I've learned that good teaching is mostly about listening: to how a student speaks, where they hesitate, and what makes them light up.
+          </p>
+          <p>
+            That same ear is what I bring to narration and voice-over work. I read with clear pronunciation, a steady pace, and a warm tone that helps listeners follow along, whether it's a children's story, a lesson, or a script that needs a calm, friendly voice.
+          </p>
+        </div>
+        <dl class="facts">
+          <div>
+            <dt>Studying</dt>
+            <dd>Education</dd>
+          </div>
+          <div>
+            <dt>Teaching</dt>
+            <dd>English, online and in person</dd>
+          </div>
+          <div>
+            <dt>Learners</dt>
+            <dd>Chinese and Filipino students</dd>
+          </div>
+          <div>
+            <dt>Also</dt>
+            <dd>Narration and voice-over</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ TEACHING ============ -->
+    <section class="teaching" id="teaching">
+      <div class="teaching-inner">
+        <div class="section-head">
+          <h2>In the classroom</h2>
+          <p>Two very different settings, one approach: patient, clear, and encouraging.</p>
+        </div>
+
+        <div class="spread">
+          <article class="spread-item">
+            <div class="spread-media">
+              <img src="teaching-online.jpg" alt="Eloisa teaching an online English class" loading="lazy" onerror="this.style.display='none'" />
+              <div class="media-fallback"><span>Photo of online class</span></div>
+            </div>
+            <div class="spread-text">
+              <h3>Teaching English online</h3>
+              <p class="spread-sub">Chinese students</p>
+              <p>
+                I run live one-on-one lessons for Chinese learners, using ClassIn and slides I design in Canva. Lessons focus on speaking confidence, pronunciation, and vocabulary through short activities and lots of encouragement.
+              </p>
+              <ul class="tags">
+                <li>ClassIn</li>
+                <li>Canva</li>
+                <li>Speaking practice</li>
+                <li>Pronunciation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="spread-item reverse">
+            <div class="spread-media">
+              <img src="teaching-inperson.jpg" alt="Eloisa teaching an English class in person" loading="lazy" onerror="this.style.display='none'" />
+              <div class="media-fallback"><span>Photo of in-person class</span></div>
+            </div>
+            <div class="spread-text">
+              <h3>Teaching English in person</h3>
+              <p class="spread-sub">Filipino students</p>
+              <p>
+                In the classroom, I teach English to Filipino students, building comfort with reading, speaking, and everyday communication. I plan lessons around the learners in front of me and adjust as I go.
+              </p>
+              <ul class="tags">
+                <li>Lesson planning</li>
+                <li>Reading and speaking</li>
+                <li>Classroom management</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VOICE ============ -->
+    <section class="voice" id="voice">
+      <div class="voice-inner">
+        <div class="section-head">
+          <h2>Narration and voice-over</h2>
+          <p>Clear, warm, and easy to listen to. Here are a few of my recordings.</p>
+        </div>
+
+        <div class="reel" id="reel">
+          <!-- Replace the src values with your video files. Duplicate a <figure> block to add more. -->
+          <figure class="reel-item">
+            <div class="video-wrap">
+              <video controls preload="metadata" playsinline>
+                <source src="narration-1.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <figcaption>
+              <strong>Narration sample 1</strong>
+              <span>Storytelling and narration</span>
+            </figcaption>
+          </figure>
+
+          <figure class="reel-item">
+            <div class="video-wrap">
+              <video controls preload="metadata" playsinline>
+                <source src="narration-2.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <figcaption>
+              <strong>Narration sample 2</strong>
+              <span>Clear, warm delivery</span>
+            </figcaption>
+          </figure>
+
+          <figure class="reel-item">
+            <div class="video-wrap">
+              <video controls preload="metadata" playsinline>
+                <source src="narration-3.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <figcaption>
+              <strong>Narration sample 3</strong>
+              <span>Educational content</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="skills" id="skills">
+      <div class="skills-inner">
+        <h2>What I work with</h2>
+        <ul class="skill-list">
+          <li>
+            <h3>Teaching</h3>
+            <p>Lesson planning, English speaking and pronunciation, online and in-person classes.</p>
+          </li>
+          <li>
+            <h3>Voice</h3>
+            <p>Narration and voice-over with clear diction and a warm, steady delivery.</p>
+          </li>
+          <li>
+            <h3>Tools</h3>
+            <p>Canva for lesson materials and visuals. ClassIn for live online classes.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ============ AWARDS ============ -->
+    <section class="awards" id="awards">
+      <div class="awards-head">
+        <div class="section-head">
+          <h2>Awards and certificates</h2>
+          <p>Training and credentials behind the teaching and the voice.</p>
+        </div>
+        <button class="carousel-toggle" id="carouselToggle" type="button" aria-pressed="false" aria-controls="carouselTrack">
+          <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4.2" height="14" rx="1.2" fill="currentColor"/><rect x="13.8" y="5" width="4.2" height="14" rx="1.2" fill="currentColor"/></svg>
+          <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z" fill="currentColor"/></svg>
+          <span class="toggle-label">Pause</span>
+        </button>
+      </div>
+
+      <div class="carousel" id="carousel" role="region" aria-roledescription="carousel" aria-label="Certificates and awards">
+        <div class="carousel-track" id="carouselTrack">
+          <!-- Each <figure> is one certificate. The script duplicates this list for a seamless loop. -->
+          <figure class="cert">
+            <div class="cert-media">
+              <img src="cert-tefl.jpg" alt="TEFL certificate" loading="lazy" />
+              <div class="cert-fallback"><span>Certificate image</span></div>
+            </div>
+            <figcaption>
+              <strong>TEFL Certificate</strong>
+              <span>Teaching English as a Foreign Language</span>
+            </figcaption>
+          </figure>
+
+          <figure class="cert">
+            <div class="cert-media">
+              <img src="cert-c2-proficiency.jpg" alt="C2 Proficiency certificate" loading="lazy" />
+              <div class="cert-fallback"><span>Certificate image</span></div>
+            </div>
+            <figcaption>
+              <strong>C2 Proficiency</strong>
+              <span>Highest level of English mastery</span>
+            </figcaption>
+          </figure>
+
+          <figure class="cert">
+            <div class="cert-media">
+              <img src="cert-communication.jpg" alt="Enhancing Communication with Remind certificate" loading="lazy" />
+              <div class="cert-fallback"><span>Certificate image</span></div>
+            </div>
+            <figcaption>
+              <strong>Enhancing Communication with Remind</strong>
+              <span>Connecting with students and families</span>
+            </figcaption>
+          </figure>
+
+          <figure class="cert">
+            <div class="cert-media">
+              <img src="cert-website.jpg" alt="Build a Free Website certificate" loading="lazy" />
+              <div class="cert-fallback"><span>Certificate image</span></div>
+            </div>
+            <figcaption>
+              <strong>Build a Free Website</strong>
+              <span>Creating a site from scratch</span>
+            </figcaption>
+          </figure>
+
+          <figure class="cert">
+            <div class="cert-media">
+              <img src="cert-canva.jpg" alt="Use Canva for Designs certificate" loading="lazy" />
+              <div class="cert-fallback"><span>Certificate image</span></div>
+            </div>
+            <figcaption>
+              <strong>Use Canva for Designs</strong>
+              <span>Visuals for lessons and materials</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <h2>Let's work together</h2>
+        <p>
+          Looking for an English tutor or a voice for your next project? Send me a message and I'll get back to you.
+        </p>
+        <a class="email-link" href="mailto:eloisajanezulita@gmail.com">eloisajanezulita@gmail.com</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Eloisa Jane Zulita</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
